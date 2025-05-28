@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Playpen+Sans+Thai:wght@100..800&display=swap');
+
+.drawer{
+  display: flex;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+
+.menu{
+  
+  background-color: rgb(100, 100, 100);
+  min-height: 100vh;
+}
+
+.navLink li{
+  margin: .3rem 0;
+  padding: .6rem;
+} 
+
+.navLink a{
+  color: rgb(223, 223, 223);
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  background-color: rgb(227, 227, 243);
+  padding: .6rem .7rem ;
+ font-family: "Dancing Script", cursive;
+ font-size: 1.5rem;
+}
+
+.logo span{
+  font-size: 2rem;
+  color: orangered;
+}
