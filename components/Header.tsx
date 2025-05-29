@@ -1,13 +1,14 @@
 import React from "react";
-import Drawer from "./ui/Drawer";
 import styles from "@/styles/Header.module.css";
 import Link from "next/link";
+import Sidebar from "./Sidebar";
 
 export default function Header() {
   return (
     <main className={styles.main}>
       <section>
         <div className={styles.logo}>
+          
           <Link href="/">
             <span className="material-symbols-outlined">school</span>
             <span>Student</span>
@@ -18,10 +19,8 @@ export default function Header() {
       <section className={styles.container}>
         <span className="material-symbols-outlined">notifications_active</span>
         <span className="material-symbols-outlined">account_circle</span>
-        <span>
-          <Drawer />
-        </span>
       </section>
+     
     </main>
   );
 }

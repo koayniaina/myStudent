@@ -4,3 +4,12 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+
+[data-collapse="true"] .nav-name {
+  display: block;
+}
+
+.nav-name {
+  display: none;
+}
