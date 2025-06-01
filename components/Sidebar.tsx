@@ -4,69 +4,87 @@ import styles from "@/styles/Dashboard.module.css";
 import { useState } from "react";
 
 export default function Sidebar() {
-  const [side, setSide] = useState<boolean>(false);
-  const toogleSidebar = () => {
-    setSide((prev) => !prev);
-  };
+  // const [side, setSide] = useState<boolean>(false);
+  // const toogleSidebar = () => {
+  //   setSide((prev) => !prev);
+  // };
   return (
     <div>
-      <div data-collapse={side} className={styles.navLink}>
-      <div className={styles.icon}>
-        <span className="material-symbols-outlined" onClick={toogleSidebar}>
-          chevron_left
-        </span>
-      </div>
-        {/* <div className={styles.logo}>
-          <span className="material-symbols-outlined">local_library</span>
-          <h2 className="logo">Managment</h2>
+      {/* data-collapse={side} */}
+      <div className={styles.navLink}>
+        {/* <div className={styles.icon}>
+          <span className="material-symbols-outlined" onClick={toogleSidebar}>
+            double_arrow
+          </span>
         </div> */}
 
         <li>
-          <Link href="/">
+          <Link href="/" className="tooltip tooltip-right" data-tip="Dashboard">
             <span className="material-symbols-outlined">dashboard</span>
-            <span className="nav-name">Dashboard</span>
+            {/* <span className="nav-name">Dashboard</span> */}
           </Link>
         </li>
         <li>
-          <Link href="/teacher">
+          <Link
+            href="/teacher"
+            className="tooltip tooltip-right"
+            data-tip="Teacher"
+          >
             <span className="material-symbols-outlined">person_book</span>
-            <span className="nav-name">Teacher</span>
           </Link>
         </li>
         <li>
-          <Link href="/class">
+          <Link
+            href="/class"
+            className="tooltip tooltip-right"
+            data-tip="Class"
+          >
             <span className="material-symbols-outlined">apartment</span>
-            <span className="nav-name">Class</span>
           </Link>
         </li>
         <li>
-          <Link href="/student">
+          <Link
+            href="/student"
+            className="tooltip tooltip-right"
+            data-tip="Student"
+          >
             <span className="material-symbols-outlined">school</span>
-            <span className="nav-name">Student</span>
           </Link>
         </li>
         <li>
-          <Link href="/parent">
+          <Link
+            href="/parent"
+            className="tooltip tooltip-right"
+            data-tip="Parent"
+          >
             <span className="material-symbols-outlined">escalator_warning</span>
-            <span className="nav-name">Parent</span>
           </Link>
         </li>
         <li>
-          <Link href="/grade">
+          <Link
+            href="/grade"
+            className="tooltip tooltip-right"
+            data-tip="Grade"
+          >
             <span className="material-symbols-outlined">star</span>
-            <span className="nav-name">Grade</span>
           </Link>
         </li>
         <li>
-          <Link href="/enrollment">
+          <Link
+            href="/enrollment"
+            className="tooltip tooltip-right"
+            data-tip="Enroullment"
+          >
             <span className="material-symbols-outlined">cached</span>
-            <span className="nav-name">Enrollment</span>
           </Link>
         </li>
         <li>
-          <Link href="/attendance">
+          <Link
+            href="/attendance"
+            className="tooltip tooltip-right"
+            data-tip="Attendance"
+          >
             <span className="material-symbols-outlined">topic</span>
-            <span className="nav-name">Attendance</span>
           </Link>
         </li>
       </div>
