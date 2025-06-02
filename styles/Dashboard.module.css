@@ -1,19 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Playpen+Sans+Thai:wght@100..800&display=swap");
-
-
 .content {
   position: absolute;
-  left: 3.8rem;
-  width: calc(100% - 3.8rem);
+  left: 3.6rem;
+  width: calc(100% - 3.6rem);
   min-height: 100vh;
+}
+
+.logo span{
+  width: 100%;
+  padding: .5rem .8rem;
+  font-size: 2rem;
+  color: orangered;
+  border-bottom: 1px solid rgb(94, 94, 94);
 }
 
 .navLink {
   position: fixed;
   list-style-type: none;
-  z-index: 1;
-  padding: 1.1rem;
-  /* overflow: hidden; */
+  /* padding: 1rem; */
+  z-index: 1000;
   background-color: rgb(16, 41, 62);
   min-height: 100vh;
 }
@@ -22,15 +26,13 @@
   color: rgb(223, 223, 223);
   display: flex;
   gap: 0.5rem;
-  margin:1rem 0;
+  padding: 0.5rem 1rem;
   align-items: center;
 }
 
 .icon {
   position: absolute;
   cursor: pointer;
-  /* right: 0; */
-  /* top: 0; */
   color: whitesmoke;
   font-size: 1.6rem;
   display: flex;

@@ -7,16 +7,14 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <div >
-      <aside className={styles.container}>
-        <span className={styles.drawer}>
-          <Sidebar />
-        </span>
-        <span className={styles.content}>
-          <Header />
-          {children}
-        </span>
-      </aside>
-    </div>
+    <aside className={styles.container}>
+      <span className={styles.drawer}>
+        <Sidebar />
+      </span>
+      <span className={styles.content}>
+        <Header />
+        {children}
+      </span>
+    </aside>
   );
 }
