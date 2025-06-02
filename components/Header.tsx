@@ -8,11 +8,16 @@ export default function Header() {
     <main className={styles.main}>
       <section>
         <div className={styles.logo}>
-          
           <Link href="/">
             <span className="material-symbols-outlined">school</span>
             <span>Student</span>
           </Link>
+        </div>
+      </section>
+      <section>
+        <div className={styles.search}>
+          <input type="text" placeholder="Search..." />
+          <span className="material-symbols-outlined">search</span>
         </div>
       </section>
 
