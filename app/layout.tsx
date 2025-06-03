@@ -18,6 +18,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
           rel="stylesheet"
         />
+        <link rel="stylesheet" href="https://cdnjs.com/libraries/Chart.js" />
         <link
           href="https://cdn.jsdelivr.net/npm/daisyui@5"
           rel="stylesheet"
@@ -29,6 +30,7 @@ export default function RootLayout({
         {/* </div> */}
 
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <script src="https://www.jsdelivr.com/package/npm/chart.js?path=dist"></script>
       </body>
     </html>
   );

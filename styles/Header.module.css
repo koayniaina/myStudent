@@ -3,7 +3,7 @@
   box-shadow: 0 1px 8px rgb(155, 155, 155);
   display: flex;
   align-items: center;
-  padding:.63rem;
+  padding: 0.63rem;
   justify-content: space-between;
   position: sticky;
   top: 0;
@@ -33,3 +33,24 @@
   }
 }
 
+.search {
+  border: 1px solid rgb(198, 198, 198);
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+  padding: 0.2rem 0.7rem;
+
+  input {
+    width: 100%;
+    border: none;
+    padding: 0 .3rem;
+    outline: none;
+    color: rgb(68, 68, 68);
+  }
+
+  span {
+    font-size: 1.3rem;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+  }
+}

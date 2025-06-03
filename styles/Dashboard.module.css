@@ -15,8 +15,6 @@
 
 .navLink {
   position: fixed;
-  list-style-type: none;
-  /* padding: 1rem; */
   z-index: 1000;
   background-color: rgb(16, 41, 62);
   min-height: 100vh;
@@ -24,23 +22,6 @@
 
 .navLink a {
   color: rgb(223, 223, 223);
-  display: flex;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
-  align-items: center;
-}
-
-.icon {
-  position: absolute;
-  cursor: pointer;
-  color: whitesmoke;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center;
-}
-
-.icon span{
-  color: rgb(202, 202, 202);
-  font-size: 2rem;
+   padding: .5rem .8rem;
  
 }
