@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "@/styles/Header.module.css";
 
-
 export default function Header() {
   return (
     <main className={styles.main}>
@@ -16,7 +15,6 @@ export default function Header() {
         <span className="material-symbols-outlined">notifications_active</span>
         <span className="material-symbols-outlined">account_circle</span>
       </section>
-     
     </main>
   );
 }

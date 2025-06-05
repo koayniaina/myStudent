@@ -1,7 +1,6 @@
 .content {
   margin: 1rem;
   border-radius: 3px;
- 
 }
 
 .cards {
@@ -32,20 +31,13 @@
 .bare {
   box-shadow: 0 1px 5px rgb(179, 179, 179);
   background-color: rgb(255, 255, 255);
-  /* width: 60%; */
   border-radius: 5px;
-  height: 50vh;
-  padding: 1.6rem;
+  margin: 1rem 0;
+  /* height: 40vh; */
+  padding: 1rem;
 }
 
-.absent {
-  box-shadow: 0 1px 5px rgb(179, 179, 179);
-  background-color: rgb(255, 255, 255);
-  /* width: 100%; */
-  border-radius: 5px;
-  height: 50vh;
-  padding: 1.6rem;
-}
+
 
 .body span {
   color: rgb(86, 86, 86);
